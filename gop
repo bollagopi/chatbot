@@ -1,0 +1,6 @@
+bot = ChatBot()
+while True:
+    bot.user_input()
+    if bot.end_chat:
+        break
+    bot.bot_response()
